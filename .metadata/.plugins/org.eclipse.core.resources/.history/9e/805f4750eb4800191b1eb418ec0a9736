@@ -1,0 +1,15 @@
+package stringmanupilation;
+
+public class CheckAccount {
+	public static void main(String[] args) {
+		String s="Account Number: 2555756CCD";
+		int check=s.indexOf(" ")+1;
+		
+		if(s.charAt(check)=='N') {
+			System.out.println("Starts with upper case");
+		}
+		else {
+			System.out.println("Starts with lower case");
+		}
+	}
+}

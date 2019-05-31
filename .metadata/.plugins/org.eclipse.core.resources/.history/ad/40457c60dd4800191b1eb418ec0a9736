@@ -1,0 +1,20 @@
+package stringmanupilation;
+import java.util.*;
+
+public class SubStringg {
+	public static void main(String[] args) {
+		//Scanner input=new Scanner(System.in);
+		String s="Your account number: 257389ACCD";
+		int i=s.indexOf(":")+2;
+		
+		if(s.charAt(i)=='2') {
+			int len=s.length()-4;
+			String cut=s.substring(len);	
+			System.out.println(cut);
+		}
+		else {
+			System.out.println("not cool");
+		}
+	
+	}
+}

@@ -1,0 +1,52 @@
+package stringmanupilation;
+import java.util.*;
+
+public class Conversion {
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		
+		System.out.println("Please enter the string ");
+		String str=input.nextLine().trim();
+		boolean manup;
+		//str=str.trim();
+		boolean check=str.isEmpty();
+		
+		if(check){
+			check=true;
+			//System.out.println("please enter data: ");
+		}
+		else {
+			check=false;	
+		}
+		System.out.println("It is empty: "+check);
+		System.out.println("This is contain method "+str.contains(" "));
+		
+//		if(str.contains(" ")) {
+//			manup=true;
+//		}
+//		else {
+//			manup=false;
+//		}
+//		System.out.println("Manupulating words: "+manup);
+		
+		
+//		String color="blue";
+//		double price=44.99;
+//		boolean isSunny=true;
+//		String s="";
+//		String result=price+" "+color+s+isSunny;
+//		
+//		String priceInstring=price+"";
+//		System.out.println(priceInstring);
+//		
+//		boolean check=s.isEmpty();
+//		System.out.println(check);
+		
+// contains() Method
+//		String name="what do you know about me";  
+//		System.out.println(name.contains("do you know"));  
+//		System.out.println(name.contains("about"));  
+//		System.out.println(name.contains("hello"));  
+		   
+	}
+}

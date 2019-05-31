@@ -1,0 +1,32 @@
+package stringmanupilation;
+import java.util.*;
+
+public class DataValidation {
+	public static void main(String[] args) {
+		//Example 2
+		String colors="blue, red, yellow, white";
+		boolean check=colors.contains("red");
+		boolean check1=colors.contains("white");
+		boolean check2=colors.contains("blue");
+		
+		char c=colors.charAt(2);
+		System.out.println(c);
+		
+		System.out.println(check);
+		System.out.println(check1);
+		System.out.println(check2);
+		
+		// Example 1
+//		Scanner input=new Scanner(System.in);
+//		System.out.println("What's your name? ");
+//		String name=input.nextLine().trim();
+//		
+//		if(name.isEmpty()) {
+//			System.out.println("You didn't provide the name");
+//			System.out.println("Enter your name");
+//		}else {
+//			System.out.println("Your name is: "+name);
+//		}
+		
+	}
+}

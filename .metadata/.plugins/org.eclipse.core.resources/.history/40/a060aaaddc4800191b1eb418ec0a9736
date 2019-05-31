@@ -1,0 +1,18 @@
+package stringmanupilation;
+import java.util.*;
+
+public class SubStringg {
+	public static void main(String[] args) {
+		//Scanner input=new Scanner(System.in);
+		String s="account number: 257389ACCD";
+		int i=s.indexOf(":")+1;
+		
+		if(i==2) {
+			System.out.println("cool");
+		}
+		else {
+			System.out.println("not cool");
+		}
+	
+	}
+}

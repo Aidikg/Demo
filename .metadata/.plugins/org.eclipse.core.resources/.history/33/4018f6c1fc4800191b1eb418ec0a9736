@@ -1,0 +1,36 @@
+package stringmanupilation;
+import java.util.*;
+
+public class Prefix {
+	public static void main(String[] args) {
+		//Example 3
+		String s="Samarkand";
+		String temp=s.replace("rk", "X");
+		System.out.println(temp);
+		
+		
+		
+		
+		//Example 2
+//		String s="Account number is: 24567890AS568907";
+//		boolean check=s.startsWith("2", s.length()-16);
+//		
+//		//System.out.println(two);
+//		if(check==true) {
+//			System.out.println("cool");
+//		}
+//		else {
+//			System.out.println("not cool");
+//		}
+		
+		
+		//Example 1
+//		String weather="Really good";
+//		
+//		boolean check=weather.startsWith("R");
+//		System.out.println(check);
+//		
+//		boolean check2=weather.endsWith("Really good"); // good -> true
+//		System.out.println(check2);
+	}
+}

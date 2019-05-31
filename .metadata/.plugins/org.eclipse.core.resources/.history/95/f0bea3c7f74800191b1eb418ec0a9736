@@ -1,0 +1,10 @@
+package stringmanupilation;
+import java.util.*;
+
+public class Prefix {
+	public static void main(String[] args) {
+		String weather="Really good";
+		boolean check=weather.startsWith("Really");
+		System.out.println(check);
+	}
+}

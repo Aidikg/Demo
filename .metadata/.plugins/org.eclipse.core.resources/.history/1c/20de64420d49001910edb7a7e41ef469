@@ -1,0 +1,54 @@
+package tasks;
+import java.util.*;
+// Scanner, Random, 
+
+public class StringExample {
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		
+		String name="Kurmanbekova";
+		String luna=name.substring(3);
+		System.out.println(luna);
+		//Example - contains()
+//		String city="Samarkand";
+//		boolean include=city.contains("kad");
+//		System.out.println(include);
+		
+		
+		
+		
+		//System.out.println("Enter your name");
+//		String name="Tansholpon";
+//		System.out.println(name);
+//		
+//		char num3=name.charAt(6);
+//		System.out.println(num3);
+//		
+//		int dlina=name.length();
+//		System.out.println(dlina);
+		
+		// Example - indexOf()
+//		String msg2="Raykhan"; // index number starts with 0
+//		int number2=msg2.indexOf('O');
+//		
+//		System.out.println(number2);
+		// Ex 1
+//		String msg="samarkand";
+//		int number=msg.indexOf('r',5);
+//		
+//		System.out.println(number);
+		
+		// Example - length()
+//		String msg=input.nextLine();
+//		int len=msg.length();     // starts with 1
+//		// length() only count String (Not int, not boolean)
+//		// index # always starts with 0
+//		
+//		System.out.println(len);
+//		
+	
+		
+		
+		
+	}
+}

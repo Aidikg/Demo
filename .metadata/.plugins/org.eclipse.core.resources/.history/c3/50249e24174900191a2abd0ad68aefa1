@@ -1,0 +1,25 @@
+package tasks;
+import java.util.*;
+// Scanner, Random, 
+
+public class StringExample {
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		
+		System.out.println("Please enter two words:");
+	    Scanner scanner = new Scanner(System.in);
+	    String n1 = scanner.nextLine();
+	    String n2 = scanner.nextLine();
+	    
+	    // Your code here
+	    //------------------------------------------------
+	    char n11=n1.charAt(n1.length()-1);
+	    char n22=n2.charAt(0);
+	    
+	    if(n11==n22) {
+	    	String result=n11+n22;
+	    	System.out.println(result);
+	    }
+	    
+	}
+}

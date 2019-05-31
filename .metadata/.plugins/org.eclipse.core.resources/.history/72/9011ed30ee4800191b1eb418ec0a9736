@@ -1,0 +1,27 @@
+package stringmanupilation;
+
+public class CheckAccount {
+	public static void main(String[] args) {
+		String s="Account Number: 2555756C";
+		// Example 2
+		int check=s.indexOf(":")+10;
+		//int len=s.substring(check);
+		
+		if(check==10) {
+			System.out.println("Valid ");
+		}
+		else {
+			System.out.println("Invalid");
+		}
+		
+		//Example 1
+//		int check=s.indexOf(" ")+1;
+//		
+//		if(s.charAt(check)=='N') {
+//			System.out.println("Starts with Upper Case");
+//		}
+//		else {
+//			System.out.println("Starts with Lower Case");
+//		}
+	}
+}

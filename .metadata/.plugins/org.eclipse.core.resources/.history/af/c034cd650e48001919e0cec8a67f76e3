@@ -1,0 +1,31 @@
+package stringmanupilation;
+import java.util.*;
+
+public class Conversion {
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		
+		System.out.println("Please enter the string ");
+		String str=input.nextLine();
+		boolean manup;
+		
+		str=str.trim();
+		if(str.contains(" ")) {
+			manup=true;
+		}
+		else {
+			manup=false;
+		}
+		System.out.println("Manupulating words "+manup);
+		
+//		String color="blue";
+//		double price=44.99;
+//		boolean isSunny=true;
+
+//		String name="what do you know about me";  
+//		System.out.println(name.contains("do you know"));  
+//		System.out.println(name.contains("about"));  
+//		System.out.println(name.contains("hello"));  
+		   
+	}
+}

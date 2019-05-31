@@ -1,0 +1,23 @@
+package stringmanupilation;
+import java.util.*;
+
+public class Prefix {
+	public static void main(String[] args) {
+		//Example 2
+		String s="Account number: 24567890AS";
+		boolean two=s.startsWith("2", s.length()-9);
+		
+		System.out.println(two);
+		
+		
+		
+		//Example 1
+//		String weather="Really good";
+//		
+//		boolean check=weather.startsWith("R");
+//		System.out.println(check);
+//		
+//		boolean check2=weather.endsWith("Really good"); // good -> true
+//		System.out.println(check2);
+	}
+}

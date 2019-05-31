@@ -1,0 +1,7 @@
+package tasks;
+
+public class Passwordd {
+	public static void main(String[] args) {
+		
+	}
+}

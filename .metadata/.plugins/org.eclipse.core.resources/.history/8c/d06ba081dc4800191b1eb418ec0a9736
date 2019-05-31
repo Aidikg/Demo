@@ -1,0 +1,17 @@
+package stringmanupilation;
+import java.util.*;
+
+public class SubStringg {
+	public static void main(String[] args) {
+		//Scanner input=new Scanner(System.in);
+		String s="Your account number: 257389ACCD";
+		
+		if(s.charAt(21)=='2') {
+			System.out.println("cool");
+		}
+		else {
+			System.out.println("not cool");
+		}
+	
+	}
+}

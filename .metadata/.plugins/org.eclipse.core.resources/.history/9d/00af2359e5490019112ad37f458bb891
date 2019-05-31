@@ -1,0 +1,31 @@
+package tasks;
+
+import java.util.*;
+
+public class Passwordd {
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		 System.out.println("Enter word:");
+		    String str2 = input.nextLine();
+		    
+		    //your code here 
+		    //---------------------------------------------------------- 
+		    int position, len;
+		    position=str2.length()/2;
+		    System.out.println(position);
+		    
+		    
+		    if(str2.length()>3 && str2.length()<100){
+		      if(str2.length()%2!=0){
+		        position=str2.length()/2;
+		        String midCh=str2.substring(position,position+1);
+		       System.out.println(midCh.toUpperCase());
+		        
+		      }
+		    }
+		    else{
+		      System.out.println("Invalid enter");
+		    }
+		  
+	}
+}

@@ -1,0 +1,54 @@
+package tasks;
+import java.util.*;
+// Scanner, Random, 
+
+public class StringExample {
+	public static void main(String[] args) {
+		System.out.println("Please enter:");
+	    Scanner scanner = new Scanner(System.in);
+	    int n = scanner.nextInt();
+	    
+	    // Your code here
+	    //----------------------------------------------
+	    
+	  // int len=n.charAt(length()-1);
+		
+		//Example 3
+//		 System.out.println("Please enter word:");
+//		 Scanner scanner = new Scanner(System.in);
+//		 String n1 = scanner.nextLine();
+//		    
+//		    // Your code here
+//		    //------------------------------------------------
+//		 int position, len2;
+//		 int len=n1.length();
+//		 if(len%2 !=0 && len>=3) {
+//			 position=len/2;
+//			 len2=1;
+//			 System.out.println(n1.substring(position, position+len2));
+//		 }
+//		 else {
+//			 System.out.println(n1);
+//		 }
+		 
+		
+		//Example-1
+//		Scanner input=new Scanner(System.in);
+//		
+//		System.out.println("Please enter two words:");
+//	    Scanner scanner = new Scanner(System.in);
+//	    String n1 = scanner.nextLine();
+//	    String n2 = scanner.nextLine();
+//	    
+//	    // Your code here
+//	    //------------------------------------------------
+//	    char n11=n1.charAt(n1.length()-1);
+//	    char n22=n2.charAt(0);
+//	    
+//	    if(n11==n22) {
+//	    	String result=n1+n2.substring(1);
+//	    	System.out.println(result);
+//	    }
+	    
+	}
+}

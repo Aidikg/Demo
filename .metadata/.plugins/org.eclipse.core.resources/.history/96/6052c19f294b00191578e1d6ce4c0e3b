@@ -1,0 +1,39 @@
+package tasks;
+
+import java.util.Scanner;
+
+public class TeamWork2 {
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		// Example - Task 3
+		System.out.println("Enter two words(Seperate with space)");
+		String str=input.nextLine();  // hello world
+		String word1=str.substring(0, str.indexOf(" "));
+		String word2=str.substring(str.indexOf(" ")+1);
+		System.out.println(word1.length()+word2.length());
+		
+		//Example - Task 2
+//		System.out.println("Enter word: ");
+//		String str=input.nextLine();
+//		String half1, half2, middle;
+//		
+//		if(str.length()>=3 && str.length()<=100) {
+//			str=str.toLowerCase();
+//			// ap p le        sev e nsb
+//			if(str.length()%2==1) {
+//				half1=str.substring(0, str.length()/2);
+//				// starting 2, 3
+//				middle=str.substring(str.length()/2, str.length()/2+1).toUpperCase();
+//				half2=str.substring(str.length()/2+1);
+//			}
+//			else {
+//				// ba na na
+//				half1=str.substring(0, str.length()/2-1);
+//				middle=str.substring(str.length()/2-1, str.length()/2+1).toUpperCase();
+//				half2=str.substring(str.length()/2+1);
+//			}
+//			System.out.println(half1+middle+half2);
+//		}
+	
+	}
+}

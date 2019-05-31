@@ -1,0 +1,14 @@
+package stringmanupilation;
+import java.util.*;
+
+public class SubStringg {
+	public static void main(String[] args) {
+		//Scanner input=new Scanner(System.in);
+		
+		String str="Your account number: 257389ACCD";
+		String str2="Your account number: 52317XYZ";
+		int two=str.charAt(20);
+		System.out.println(two);
+		
+	}
+}
